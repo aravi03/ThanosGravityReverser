@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name"> Thanos Gravity Reverser
+    </string>
+    <string name="title_activity_help_screen">HelpScreen</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpScreen"
+    android:background="@drawable/welcome_bg2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="vertical"
+        android:text="Thanos thinks that his destiny is to ensure better living conditions for all the creatures of the universe. The mad Titan believes that this can only be achieved by wiping out half of all living creatures in the universe. The only way for him to do so is to obtain all the six infinity stones. In order to do so, he sends his children Móði and Magni can control gravity to obtain them. This makes the other infinity stones go up and down. Magni developed this app to Thanos so that every time that Thanos taps the screen the gravity reverses. Now that you have the app, you have the power to do the same."
+        android:textColor="#EAE7EB"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center_horizontal"
+        android:text="Help"
+        android:textColor="#FFC107"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-black" />
+</RelativeLayout>
+</ScrollView>
